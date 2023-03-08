@@ -19,7 +19,7 @@ async def help_user(bot, update):
         parse_mode="html",
         disable_web_page_preview=True,
         reply_to_message_id=update.message_id,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/TeleRoidGroup")]]),
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/mittalbots")]]),
    )
 
 @Client.on_message(filters.command(["upgrade"]))
@@ -40,8 +40,8 @@ async def start(bot, update):
         parse_mode="html",
         disable_web_page_preview=True,
         reply_to_message_id=update.message_id,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="⭕️ CHANNEL ⭕️", url="https://t.me/TeleRoidGroup")], [InlineKeyboardButton(text="🛑 SUPPORT 🛑", url="https://t.me/TeleRoid14"),
-                                                    InlineKeyboardButton(text="About Meh👤", url="https://t.me/TheTeleRoid")]]),
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="⭕️ CHANNEL ⭕️", url="https://t.me/mittalbots")], [InlineKeyboardButton(text="🛑 SUPPORT 🛑", url="https://t.me/mittalbots"),
+                                                    InlineKeyboardButton(text="Owner 👤", url="https://t.me/soonbotmaker0")]]),
     )
 
 @Client.on_message(filters.command(["about"]))
